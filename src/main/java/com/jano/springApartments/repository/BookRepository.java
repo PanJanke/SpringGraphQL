@@ -34,7 +34,7 @@ public class BookRepository {
         books.add(new Book(1,
                 "Reactive Spring",
                 484,
-                Rating.FIVE_STARS,
+                Rating.FOUR_STARS,
                 authorRepository.findByName("Josh Long")));
         books.add(new Book(2,
                 "Spring Boot Up & Running",
@@ -44,7 +44,7 @@ public class BookRepository {
         books.add(new Book(3,
                 "Hacking with Spring Boot 2.3",
                 392,
-                Rating.FIVE_STARS,
+                Rating.ONE_STAR,
                 authorRepository.findByName("Greg Turnquist")));
     }
 

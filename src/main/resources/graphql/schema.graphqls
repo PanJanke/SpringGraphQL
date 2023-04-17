@@ -1,7 +1,19 @@
 type Query {
   allBooks: [Book]
   findOne(id: ID!): Book
+  findOneApartment(id: ID!): Apartment
+  allApartments: [Apartment]
 }
+
+type Apartment {
+  id: ID!
+  webAddress: String
+  address: String
+  price: String
+  numOfRooms: String
+  squareMeters: String
+}
+
 
 type Book {
   id: ID!
